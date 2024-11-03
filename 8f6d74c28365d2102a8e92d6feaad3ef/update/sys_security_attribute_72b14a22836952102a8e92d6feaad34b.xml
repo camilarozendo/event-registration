@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_attribute">
+    <sys_security_attribute action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition>Group=c2b7996a836552102a8e92d6feaad3e2</condition>
+        <description>Auto Created Attribute - ACL_b9714262836952102a8e92d6feaad31f</description>
+        <is_dynamic>true</is_dynamic>
+        <is_localized>true</is_localized>
+        <is_system>false</is_system>
+        <label>ACL_b9714262836952102a8e92d6feaad31f</label>
+        <lookup_table/>
+        <lookup_table_column/>
+        <name>x_1540762_event_re__ACL_b9714262836952102a8e92d6feaad31f</name>
+        <script/>
+        <sys_class_name>sys_security_attribute</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-01 18:04:38</sys_created_on>
+        <sys_id>72b14a22836952102a8e92d6feaad34b</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>x_1540762_event_re__ACL_b9714262836952102a8e92d6feaad31f</sys_name>
+        <sys_package display_value="Event Registration" source="x_1540762_event_re">8f6d74c28365d2102a8e92d6feaad3ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Registration">8f6d74c28365d2102a8e92d6feaad3ef</sys_scope>
+        <sys_update_name>sys_security_attribute_72b14a22836952102a8e92d6feaad34b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-02 02:02:07</sys_updated_on>
+        <type>compound</type>
+    </sys_security_attribute>
+</record_update>

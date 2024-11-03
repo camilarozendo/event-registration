@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Registration">c0084116832112102a8e92d6feaad36b</application>
+        <filter/>
+        <name>Registrations</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_1540762_event_re.registration_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-31 19:13:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c8084116832112102a8e92d6feaad36e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Registrations</sys_name>
+        <sys_package display_value="Event Registration" source="x_1540762_event_re">8f6d74c28365d2102a8e92d6feaad3ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Registration">8f6d74c28365d2102a8e92d6feaad3ef</sys_scope>
+        <sys_update_name>sys_ui_module_c8084116832112102a8e92d6feaad36e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-31 19:13:55</sys_updated_on>
+        <table>x_1540762_event_re_registration</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Event Registration">8f6d74c28365d2102a8e92d6feaad3ef</application>
+        <file_path/>
+        <instance_id>3e210f521b9102d039a54089bd4bcbbf</instance_id>
+        <instance_name>dev253830</instance_name>
+        <name>sys_ui_module_c8084116832112102a8e92d6feaad36e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Registration">c0084116832112102a8e92d6feaad36b</application><filter/><name>Registrations</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_1540762_event_re.registration_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-31 19:13:55</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c8084116832112102a8e92d6feaad36e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Registrations</sys_name><sys_package display_value="Event Registration" source="x_1540762_event_re">8f6d74c28365d2102a8e92d6feaad3ef</sys_package><sys_policy/><sys_scope display_value="Event Registration">8f6d74c28365d2102a8e92d6feaad3ef</sys_scope><sys_update_name>sys_ui_module_c8084116832112102a8e92d6feaad36e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-31 19:13:55</sys_updated_on><table>x_1540762_event_re_registration</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>-514266891</payload_hash>
+        <record_name>Registrations</record_name>
+        <reverted_from/>
+        <source>876d74c28365d2102a8e92d6feaad3f3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-31 19:13:55</sys_created_on>
+        <sys_id>40084116832112102a8e92d6feaad372</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192e3ffa8f10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-31 19:13:55</sys_updated_on>
+        <type>Module</type>
+        <update_guid>04084116a5211210eaf73aa9c4857d71</update_guid>
+        <update_guid_history>04084116a5211210eaf73aa9c4857d71:-514266891</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-31 19:31:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>31c9b25037874f2eb544d00f112d0864</sys_id>
+        <sys_metadata>c8084116832112102a8e92d6feaad36e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Registrations</sys_name>
+        <sys_package display_value="Event Registration" source="x_1540762_event_re">8f6d74c28365d2102a8e92d6feaad3ef</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Event Registration">8f6d74c28365d2102a8e92d6feaad3ef</sys_scope>
+        <sys_scope_delete display_value="">1d0471097b184e3cb70c46b9608a0524</sys_scope_delete>
+        <sys_update_name>sys_ui_module_c8084116832112102a8e92d6feaad36e</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_c8084116832112102a8e92d6feaad36e">40084116832112102a8e92d6feaad372</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-31 19:31:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
