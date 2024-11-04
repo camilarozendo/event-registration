@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to table="x_1540762_event_re_registration">stateIN1,2,3^EQ<item display_value="1,2,3" endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="1,2,3"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </applies_to>
+        <condition/>
+        <decision_type>allow</decision_type>
+        <description>Allow write for records in x_1540762_event_re_registration if the record matches the criteria (stateIN1,2,3^EQ), for users with role x_1540762_event_re.managers, and if users satisfy the conditions of the Security Attribute "x_1540762_event_re__ACL_b9714262836952102a8e92d6feaad31f".</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1540762_event_re_registration</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <security_attribute display_value="x_1540762_event_re__ACL_b9714262836952102a8e92d6feaad31f">72b14a22836952102a8e92d6feaad34b</security_attribute>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-01 18:04:41</sys_created_on>
+        <sys_id>b9714262836952102a8e92d6feaad31f</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>x_1540762_event_re_registration</sys_name>
+        <sys_package display_value="Event Registration" source="x_1540762_event_re">8f6d74c28365d2102a8e92d6feaad3ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Registration">8f6d74c28365d2102a8e92d6feaad3ef</sys_scope>
+        <sys_update_name>sys_security_acl_b9714262836952102a8e92d6feaad31f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-02 02:02:45</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Event Registration">8f6d74c28365d2102a8e92d6feaad3ef</application>
+        <file_path/>
+        <instance_id>3e210f521b9102d039a54089bd4bcbbf</instance_id>
+        <instance_name>dev253830</instance_name>
+        <name>sys_security_acl_b9714262836952102a8e92d6feaad31f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to table="x_1540762_event_re_registration">stateIN1,2,3^EQ<item display_value="1,2,3" endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="1,2,3"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></applies_to><condition/><decision_type>allow</decision_type><description>Allow write for records in x_1540762_event_re_registration if the record matches the criteria (stateIN1,2,3^EQ), for users with role x_1540762_event_re.managers, and if users satisfy the conditions of the Security Attribute "x_1540762_event_re__ACL_b9714262836952102a8e92d6feaad31f".</description><local_or_existing>Local</local_or_existing><name>x_1540762_event_re_registration</name><operation display_value="write">write</operation><script/><security_attribute display_value="x_1540762_event_re__ACL_b9714262836952102a8e92d6feaad31f">72b14a22836952102a8e92d6feaad34b</security_attribute><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-11-01 18:04:41</sys_created_on><sys_id>b9714262836952102a8e92d6feaad31f</sys_id><sys_mod_count>13</sys_mod_count><sys_name>x_1540762_event_re_registration</sys_name><sys_package display_value="Event Registration" source="x_1540762_event_re">8f6d74c28365d2102a8e92d6feaad3ef</sys_package><sys_policy/><sys_scope display_value="Event Registration">8f6d74c28365d2102a8e92d6feaad3ef</sys_scope><sys_update_name>sys_security_acl_b9714262836952102a8e92d6feaad31f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-11-02 02:02:45</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-1728690515</payload_hash>
+        <record_name>x_1540762_event_re_registration</record_name>
+        <reverted_from/>
+        <source>876d74c28365d2102a8e92d6feaad3f3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-02 02:02:46</sys_created_on>
+        <sys_id>a62fef6e836192102a8e92d6feaad3cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192ea9c51650000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-02 02:02:46</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>6e2fef6ed3619210ffd1294e6530c0ca</update_guid>
+        <update_guid_history>6e2fef6ed3619210ffd1294e6530c0ca:-1728690515,ed0f2f6eb461921003fa1be835c0ce64:1617273321,642ea72e81619210932b6e792cd18e0e:1666210108,ccdd6feaa0619210e328ee139252bbe0:-175885975,bd598eea7c695210a15472f26609ae96:1666210108,810906ea6a695210dfa6c8ef508122a6:-2060728529,f4b882ea7a69521047981c24918c2ceb:558410172,c3088a6ac56952101c53c8e6ceff4699:1666210108,1266cee60a695210f04f325ed11c9878:558410172,5016c6e6966952107bd469b8c6bdca5a:-691854448,7815c2a6f2695210389a2cee79579a26:631291159,6624c626c26952109e97ffde71f03fe6:-520561917,aee2c2e2ab695210f4c9d0eb57b4d908:1666210108,a3b1c6629d6952103fea9b08f4023902:-821221847</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-02 02:06:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>3251d8cbdc854c5e9aa396b419fb0541</sys_id>
+        <sys_metadata>b9714262836952102a8e92d6feaad31f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1540762_event_re_registration</sys_name>
+        <sys_package display_value="Event Registration" source="x_1540762_event_re">8f6d74c28365d2102a8e92d6feaad3ef</sys_package>
+        <sys_parent display_value="x_1540762_event_re_registration">d73c099a832112102a8e92d6feaad328</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Event Registration">8f6d74c28365d2102a8e92d6feaad3ef</sys_scope>
+        <sys_scope_delete display_value="">1d0471097b184e3cb70c46b9608a0524</sys_scope_delete>
+        <sys_update_name>sys_security_acl_b9714262836952102a8e92d6feaad31f</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_b9714262836952102a8e92d6feaad31f">a62fef6e836192102a8e92d6feaad3cb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-02 02:06:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
